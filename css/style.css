@@ -57,6 +57,43 @@
     opacity: 0.2;
 }
 
+.donut__segment--1 {
+    stroke-dasharray: 0;    
+    animation: dash1 1s forwards;    
+}
+
+@keyframes dash1 {
+    to {
+    stroke-dasharray: 87 16;
+    stroke-linecap: round;    
+    }
+}
+
+
+.donut__segment--2 {
+    stroke-dasharray: 0;    
+    animation: dash2 1s forwards;    
+}
+
+@keyframes dash2 {
+    to {
+    stroke-dasharray: 40 40;
+    stroke-linecap: round;       
+    }
+}
+
+.donut__segment--3 {
+    stroke-dasharray: 0;    
+    animation: dash3 1s forwards;    
+}
+
+@keyframes dash3 {
+    to {
+    stroke-dasharray: 42 70;
+    stroke-linecap: round;    
+    }
+}
+
 .donut__hole {   
     text-anchor: middle;
 }
