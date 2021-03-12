@@ -38,14 +38,23 @@
     color: #555;
 }
 
-.flag {
+.donut__wrapper {
+    position: relative;
+}
+
+.donut__wrapper::after {
     position: absolute;
-    top: 0;
+    content: "";    
     left: 50%;
-    width: 55px;
-    height: 55px;
-    opacity: 0.2;
+    top: 0;;
+    width: 40px;
+    height: 48px;
     transform: translateX(-50%);
+    background-image: url("../img/loyalty.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
 }
 
 .donut__hole {   
